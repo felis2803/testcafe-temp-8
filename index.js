@@ -9,7 +9,7 @@ async function runTests () {
     const testCafe = await createTestCafe();
 
     await testCafe.createRunner()
-        .src('./test.js')
+        .src(['./test.js', './test.testcafe'])
         .browsers('chrome')
         .run();
 
