@@ -1,0 +1,15 @@
+{
+  "name": "testcafe-temp-8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init-server": "git clone https://github.com/julie-ng/nodejs-certificate-auth.git && cd nodejs-certificate-auth && npm i"
+  },
+  "author": "Ilya Afanasenko",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^2.0.2"
+  }
+}
